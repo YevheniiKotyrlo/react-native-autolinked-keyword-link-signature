@@ -1,0 +1,13 @@
+apply plugin: "com.android.library"
+
+android {
+    namespace "com.keywordlinking"
+    compileSdk rootProject.ext.compileSdkVersion
+    defaultConfig {
+        minSdk rootProject.ext.minSdkVersion
+    }
+}
+
+dependencies {
+    implementation("com.facebook.react:react-android")
+}
